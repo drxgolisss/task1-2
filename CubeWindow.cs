@@ -45,7 +45,7 @@ class CubeWindow : GameWindow
         GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
         // TODO 2.2 (Uncomment the line below)
-        //ModelA = Matrix4.CreateRotationY(MathHelper.DegreesToRadians((float)(Time * rotationSpeed))) * Matrix4.CreateTranslation(0, 0, 0);
+        ModelA = Matrix4.CreateRotationY(MathHelper.DegreesToRadians((float)(Time * rotationSpeed))) * Matrix4.CreateTranslation(0, 0, 0);
         CubeA.Render(ModelA, View, Projection);
 
         // TODO 2.4 (Uncomment the line below)
