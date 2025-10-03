@@ -49,7 +49,7 @@ class CubeWindow : GameWindow
         CubeA.Render(ModelA, View, Projection);
 
         // TODO 2.4 (Uncomment the line below)
-        // CubeB.Render(ModelB, View, Projection);
+        CubeB.Render(ModelB, View, Projection);
 
         SwapBuffers();
     }
